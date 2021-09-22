@@ -1,0 +1,28 @@
+
+.header{
+    background: #eee;
+    padding:20px;
+
+    .navHed{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+       *{
+           font-size: 16px;
+           cursor: pointer;
+           text-decoration: none;
+       }
+
+       @media only screen and (max-width: 600px) {
+       flex-direction: column;
+       align-items: center
+
+    }
+    }
+
+    .active{
+        border-bottom: 3px solid #817EFE;
+    }
+
+}
