@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T05:25:16.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.2.9" etag="RUcGXW2PW87IVTirHrXO" type="github"><diagram id="B8BNc3vXGrYJg0XY25jv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-22T05:52:44.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="8VwTzDZPstrZ91bwVOoQ" version="15.2.9" type="github">
+  <diagram id="B8BNc3vXGrYJg0XY25jv" name="Page-1">
+    <mxGraphModel dx="1038" dy="2917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-7" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-1169" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-13" value="INCB BANK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-7">
+          <mxGeometry x="39" y="10" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-32" value="Client" style="whiteSpace=wrap;html=1;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-7">
+          <mxGeometry x="20" y="89.5" width="70" height="20.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-33" value="Manager" style="whiteSpace=wrap;html=1;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-7">
+          <mxGeometry x="110" y="89.5" width="80" height="20.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="-1200" as="sourcePoint" />
+            <mxPoint x="40" y="-1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-15" value="Page 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-1200" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-16" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry y="-930" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-22" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-16">
+          <mxGeometry x="75" y="60" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-23" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-16">
+          <mxGeometry x="75" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-24" value="Submit" style="whiteSpace=wrap;html=1;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-16">
+          <mxGeometry x="65" y="160" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-27" value="Password" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-16">
+          <mxGeometry x="5" y="100" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-28" value="INCB BANK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-16">
+          <mxGeometry x="60" y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-35" value="User Login:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-16">
+          <mxGeometry x="5" y="30" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-25" value="Username" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="-870" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-34" value="You are a:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-1110" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpXpSEwm8oj6JpEmMcDG-32" target="rpXpSEwm8oj6JpEmMcDG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-37" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-930" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-38" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-37">
+          <mxGeometry x="75" y="60" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-39" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-37">
+          <mxGeometry x="75" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-40" value="Submit" style="whiteSpace=wrap;html=1;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-37">
+          <mxGeometry x="65" y="160" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-41" value="Password" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-37">
+          <mxGeometry x="5" y="100" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-42" value="INCB BANK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-37">
+          <mxGeometry x="60" y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-43" value="Manager Login:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="rpXpSEwm8oj6JpEmMcDG-37">
+          <mxGeometry x="-5" y="30" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-44" value="Username" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="-850" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rpXpSEwm8oj6JpEmMcDG-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpXpSEwm8oj6JpEmMcDG-33" target="rpXpSEwm8oj6JpEmMcDG-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
