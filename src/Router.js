@@ -11,6 +11,11 @@ import {
 
 
 import Login from './pages/Login'
+import Cash from './pages/Cash'
+
+import RegisterAccount from './pages/RegisterAccount'
+import AccountTransfer from './pages/AccountTransfer'
+
 import Header from './pages/Header'
 import {Grommet} from 'grommet'
 import AccountDetails from "./pages/AccountDetails";
@@ -20,6 +25,7 @@ import Statement from "./pages/Statement";
 import Dashboard from "./pages/Dashboard";
 import { Store } from "./store/global";
 import { observer } from "mobx-react"
+import AllAccounts from './pages/AllAccounts';
 
 const App = observer(() =>{
 
@@ -53,13 +59,24 @@ const App = observer(() =>{
             <Statement />
           </Route>
 
-          <Route path="/cash">
-            <AccountDetails />
+    
+          <Route path="/account-transfer">
+            <AccountTransfer />
           </Route>
 
-          <Route path="/account-transfer">
-            <AccountDetails />
+          <Route path="/all-accounts">
+            <AllAccounts />
           </Route>
+
+          <Route path="/create">
+            <RegisterAccount />
+          </Route>
+
+          <Route path="/cash">
+            <Cash />
+          </Route>
+          
+
 
           <Route path="/login">
             <Redirect to="/dashboard"/>
@@ -76,6 +93,7 @@ const App = observer(() =>{
         <Switch>
           <Route path="/">
             <Login />
+            {/* <RegisterAccount/> */}
           </Route>
           </Switch>
     </Router>

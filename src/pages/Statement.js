@@ -12,11 +12,32 @@ export default function Statement() {
         <DataTable
   columns={[
   {
-    property: 'name',
-    header: <Text>Name</Text>,
+    property: 'date',
+    header: <Text>Date</Text>,
     primary: true,
   },
   {
+    property: 'details',
+    header: <Text>Detail</Text>,
+    primary: true,
+  },
+  {
+    property: 'reff',
+    header: <Text>Referrence No.</Text>,
+    primary: true,
+  },
+  {
+    property: 'credit',
+    header: <Text>Credit</Text>,
+    primary: true,
+  },
+  {
+    property: 'debit',
+    header: <Text>Debit</Text>,
+    primary: true,
+  },
+
+  {/* {
     property: 'percent',
     header: 'Complete',
     render: datum => (
@@ -28,13 +49,14 @@ export default function Statement() {
         />
       </Box>
     ),
-  },
+  }, */}
   ]}
   data={[
-    { name: 'Alan', percent: 20 },
-    { name: 'Bryan', percent: 30 },
-    { name: 'Chris', percent: 40 },
-    { name: 'Eric', percent: 80 },
+    { details: 'Withdraw from ATM', date:'12-09-2020',reff:'92838810',credit:0, debit:3000 },
+    { details: 'Deposit', date:'18-09-2020',reff:'31241251',credit:5540, debit:0 },
+    { details: 'Transfer #990', date:'20-09-2020',reff:'341213',credit:0, debit:8000},
+
+
   ]}
 />
 </Main>

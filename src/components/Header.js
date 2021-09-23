@@ -12,6 +12,8 @@ import {
 import { Store } from '../store/global';
 
 export default function Header() {
+    const a= (JSON.parse(Store.user))
+
     return (
         <div className="header">
         
@@ -23,10 +25,21 @@ export default function Header() {
  
  <div className="navHed">
  <Link to={`/dashboard`} activeClassName="active"><p>Dashboard</p></Link>
+
+
+{!a.manager?<>
  <Link to={`/account-details`} activeClassName="active"><p>Account Details</p></Link>
  <Link to={`/statement`} activeClassName="active"><p>Statement</p></Link>
  <Link to={`/cash`} activeClassName="active"><p>Withdraw/Deposit</p></Link>
  <Link to={`/account-transfer`} activeClassName="active"><p>Account Transfer</p></Link>
+</>:
+<>
+<Link to={`/all-accounts`} activeClassName="active"><p>All Accounts</p></Link>
+ <Link to={`/create`} activeClassName="active"><p>Create New Account</p></Link>
+ </>
+ }
+
+
 <p onClick={()=>{Store.logout()}}>Logout</p>
 
  </div>

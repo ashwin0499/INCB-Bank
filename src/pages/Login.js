@@ -4,8 +4,10 @@ import "../assets/login.scss";
 
 import axios from "axios";
 
+import {
+ Redirect
+} from "react-router-dom";
 
-// import AccountDetails from './AccountDetails'
 
 import { Box, Button, Grommet, Spinner,Card,CardBody } from "grommet";
 // function clickFn(params) {
@@ -57,6 +59,7 @@ export default class Login extends Component {
   };
 
   render() {
+    // const { navigate } = this.state
     return (
       <>
         {this.state.flag == 0 ? (
